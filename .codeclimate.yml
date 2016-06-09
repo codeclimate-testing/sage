@@ -1,0 +1,14 @@
+---
+engines:
+  phpcodesniffer:
+    enabled: true
+    config:
+      standard: "WordPress"
+ratings:
+  paths:
+  - "**.inc"
+  - "**.module"
+  - "**.php"
+exclude_paths:
+- config/
+- tests/
